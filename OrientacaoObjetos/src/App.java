@@ -3,7 +3,7 @@ import java.util.List;
 import domain.Charmander;
 import domain.Pikachu;
 import domain.Pokemon;
-import domain.Zobat;
+import domain.Zapdos;
 import domain.contracts.ElectricType;
 import domain.contracts.FireType;
 import domain.contracts.FlyingType;
@@ -19,7 +19,7 @@ public class App {
         System.out.println(charmander);
         charmander.attack();
 
-        var zobat = new Zobat("Zobat", 800, 80);
+        var zobat = new Zapdos("Zobat", 800, 80);
         System.out.println(zobat);
         zobat.attack();
 

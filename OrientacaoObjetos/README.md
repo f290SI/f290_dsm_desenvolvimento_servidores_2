@@ -165,12 +165,12 @@ public class App {
         System.out.println(charmander);
         charmander.attack();
 
-        var zobat = new Zobat("Zobat", 800, 80);
-        System.out.println(zobat);
-        zobat.attack();
+        var zapdos = new Zapdos("zapdos", 800, 80);
+        System.out.println(zapdos);
+        zapdos.attack();
 
         // Demonstração do Polimorfismo
-        List<Pokemon> pokemons = List.of(pikachu, charmander, zobat);
+        List<Pokemon> pokemons = List.of(pikachu, charmander, zapdos);
         String template = "\n%s. Detalhes de heraça e polimorfismo. \n"+ 
         "\tInstancia de Pokemon: %s.\n"+
         "\tInstancia de FireType: %s.\n"+
